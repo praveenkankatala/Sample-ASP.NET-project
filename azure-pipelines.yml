@@ -6,7 +6,7 @@
 trigger:
 - master
 
-pool:batch5
+pool:
   vmImage: 'windows-latest'
 
 variables:
