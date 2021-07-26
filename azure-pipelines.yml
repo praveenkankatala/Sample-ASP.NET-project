@@ -6,8 +6,8 @@
 trigger:
 - master
 
-pool:linuxmc
-  vmImage: 'windows-latest'
+pool:
+  name:batch5
 
 variables:
   solution: '**/*.sln'
